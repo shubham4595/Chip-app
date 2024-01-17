@@ -1,0 +1,91 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.box {
+  width: 60%;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  border-bottom: 2px solid rgb(68, 140, 198);
+  border-left: 2px solid rgb(68, 140, 198);
+  border-radius: 3px;
+}
+
+.chip {
+  background-color:#aeb5c1; ; 
+  color: #1f1f20;
+  padding: 1px 10px 0 0;
+  margin: 4px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 20px;
+}
+#nameIcon0 {
+  background-color: rgb(188, 188, 244);
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.chip-remove {
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 4px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+.input::placeholder {
+  font-size: 14px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(68, 140, 198);
+  width: 40%;
+  border-radius: 15px;
+}
+
+.item {
+  padding: 1px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+.item p {
+  padding: 7px;
+  display: flex;
+}
+.item:hover {
+  background-color: #bbcee1;
+  border-radius: 5px;
+}
+
+#nameIcon {
+  background-color: rgb(188, 188, 219);
+  padding: 10px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+#listName {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#listEmail {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 10px;
+}
